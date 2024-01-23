@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@drawable/splash_bg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-110sp"
+        android:layout_marginBottom="-450dp"
+        android:src="@drawable/message"></ImageView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="350sp"
+        android:layout_marginHorizontal="25sp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="250sp"
+        android:backgroundTint="#80FFFFFF">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OTP Verification"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginTop="15sp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please Enter the OTP send to you "
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginHorizontal="15sp"
+                android:fontFamily="sans-serif"
+                android:textColor="#5b5b5b">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Mobile Number"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="15sp"
+                android:layout_marginHorizontal="15sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#3e3e3e">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:orientation="horizontal">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10sp"
+                    android:background="@color/white"
+                    style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox">
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapSentences"
+                        android:textColor="@color/black"
+                        android:background="@drawable/mob_bg"
+                        android:textColorHint="@color/orange"
+                        >
+
+                    </androidx.appcompat.widget.AppCompatEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10sp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="1sp"
+                    style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox">
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapSentences"
+                        android:textColor="@color/black"
+                        android:background="@drawable/mob_bg"
+                        android:textColorHint="@color/orange"
+                        >
+
+                    </androidx.appcompat.widget.AppCompatEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10sp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="1sp"
+                    style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox">
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapSentences"
+                        android:textColor="@color/black"
+                        android:background="@drawable/mob_bg"
+                        android:textColorHint="@color/orange"
+                        >
+
+                    </androidx.appcompat.widget.AppCompatEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10sp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="1sp"
+                    style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox">
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapSentences"
+                        android:textColor="@color/black"
+                        android:background="@drawable/mob_bg"
+                        android:textColorHint="@color/orange"
+                        >
+
+                    </androidx.appcompat.widget.AppCompatEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10sp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="1sp"
+                    style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox">
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapSentences"
+                        android:textColor="@color/black"
+                        android:background="@drawable/mob_bg"
+                        android:textColorHint="@color/orange"
+                        >
+
+                    </androidx.appcompat.widget.AppCompatEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10sp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="1sp"
+                    style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox">
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapSentences"
+                        android:textColor="@color/black"
+                        android:background="@drawable/mob_bg"
+                        android:textColorHint="@color/orange"
+                        >
+
+                    </androidx.appcompat.widget.AppCompatEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="10sp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Didn't recieve the OTP "
+                    android:textAlignment="center"
+                    android:textStyle="italic"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#5b5b5b">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RESEND OTP AGAIN"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#3e3e3e">
+                </TextView>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15sp"
+                android:backgroundTint="@color/orange"
+                android:textColorHint="@color/white"
+                android:text="Verify"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </Button>
+
+
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
